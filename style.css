@@ -12,7 +12,9 @@ h2 {
 	font-weight: 700;
 	color: #2C2C2C;
 	text-align: center;
-	text-decoration: none;
+	text-decoration: underline;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 p {
@@ -145,13 +147,13 @@ nav li {
 /*стили для формы обратной связи*/
 form label { /*для названия полей*/
 	display: inline-block;
-	font-size: 1.2em;
 	font-weight: bold;
+	font-size: 1.2em;
 	width: 100%;
 	padding: 6px 0;
 	color: #464646;
 	vertical-align: top;
-	font-family: Helvetica, serif;
+	font-family: chicago, serif;
 }
 form .req { color: #ca5354; } /*стиль для звездочки*/
 
@@ -170,7 +172,7 @@ form .txt { /*для текстового поля формы*/
 	padding: 8px 9px;
 	padding-right: 30px;
 	width: 240px;
-	font-family: sans-serif;
+	font-family: chicago, sans-serif;
 	font-size: 1.35em;
 	font-weight: normal;
 	color: #898989;
@@ -206,7 +208,7 @@ form .txt { /*для текстового поля формы*/
 }
 
 .h2-feedback {
-    font-size: 34px;
+    font-size: 200%;
     color: #333;
     text-align: center;
     margin: 20px 0 48px;
